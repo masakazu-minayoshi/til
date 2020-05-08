@@ -64,10 +64,22 @@
 ・ナレッジ＝インシデントや問題に関する情報のこと。  
 ・インシデントや問題に関する情報をナレッジとして共有することで  
  インシデント管理や問題管理の効率化を図る。  
-
-
-
-
+# ファシリティマネジメント  
+* **ファシリティマネジメント**  
+・建物や設備管理のこと。  
+（例）  
+・電源管理、空調管理など。  
+→建物や設備を最適な状態で維持管理すること（最小限コストで最大限の効果を得る）  
+* **UPS（Uninterruptible Power Supply)  
+・無停電電源装置(停電時に一定時間の電力共有を行う装置)。  
+→瞬断(電力共有が瞬間的に途切れる現象)対策にも効果がある。  
+* サージ防護  
+・雷サージなどから危機を保護するための機能のこと。  
+・サージ＝異常に高い電圧が瞬間的に流れてしまう現象。（雷を原因とするものを雷サージという）  
+* セキュリティワイヤ  
+・パソコンやプリンタなどが盗難されないようにするために危機を机などに固定するワイヤのこと。  
+※建物内への入退出管理、建物の避難経路の確保、地震に備えた免震構造、機器を固定するベルト  
+などもファシリティマネジメントに含まれる。
 
 > 引用
 [ITパスポート講座_第36回目講義](https://www.youtube.com/watch?v=2p5HUxDt4y4&list=PLC9xywNMIf9jgTizhye6GyPjZcuPZ9ou5&index=38&t=7s)  
@@ -75,4 +87,6 @@
 [ITパスポート講座_第37回目講義](https://www.youtube.com/watch?v=EXDxCBN6olk&list=PLC9xywNMIf9jgTizhye6GyPjZcuPZ9ou5&index=38)   
 > 引用
 [ITパスポート講座_第38回目講義](https://www.youtube.com/watch?v=sndK-h-92_I&list=PLC9xywNMIf9jgTizhye6GyPjZcuPZ9ou5&index=39)  
+> 引用
+[ITパスポート講座_第39回目講義(retake)](https://www.youtube.com/watch?v=TjURzLm4e9M&list=PLC9xywNMIf9jgTizhye6GyPjZcuPZ9ou5&index=40)  
 
