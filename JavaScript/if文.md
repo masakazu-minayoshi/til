@@ -1,6 +1,10 @@
 # if文  
 * （例）合言葉を入力し正しければOK、間違っていればエラ〜メッセージが表示される条件文。  
 
+（正の条件の時） [![Image from Gyazo](https://gyazo.com/f40548990b96f8b230e9c271b17f8158.gif)](https://gyazo.com/f40548990b96f8b230e9c271b17f8158)  
+（負の条件の時）[![Image from Gyazo](https://gyazo.com/10e4558b41dca27c73aa334fd08c2198.gif)](https://gyazo.com/10e4558b41dca27c73aa334fd08c2198)  
+
+
 ```
 <!DOCTYPE html>
 <html>
