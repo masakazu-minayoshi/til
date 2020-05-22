@@ -71,19 +71,12 @@
 ```
 
 (例③)クリックするとiframeの内容が変わる。<br>iframeをimageにすると画像を差し替えることができる。    
-[![Image from Gyazo](https://i.gyazo.com/6514ea9acc4dc7d003e4aee224d48c93.gif)](https://gyazo.com/6514ea9acc4dc7d003e4aee224d48c93)
+[![Image from Gyazo](https://i.gyazo.com/f9fc5672695c881eb2b4887b48e16943.gif)](https://gyazo.com/f9fc5672695c881eb2b4887b48e16943)
 ```
 <!DOCTYPE html>
 <html>
     <head>
         <style type="text/css">
-            #circle {
-              width: 150px;
-              height: 150px;
-              border-radius: 50%;
-              margin: 10px;
-              background-color: green;
-            }
             .iframe {
               width: 100%;
               height: 400px;
@@ -93,13 +86,13 @@
     <body>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
 </script> 
-    <div id="circle"></div>
-    <iframe src="https://techacademy.jp/magazine/36" class="iframe" ></iframe>
-    <script type="text/javascript">
-      $("div").click (function(){
-        $("iframe").attr("src","https://schoo.jp/");
-      });
-    </script>
-    </body>
+  <button id="button">クリックする</button>
+  <iframe src="https://techacademy.jp/magazine/36" class="iframe" ></iframe>
+  <script type="text/javascript">
+    $("#button").click (function(){
+      $("iframe").attr("src","https://schoo.jp/");
+    });
+  </script>
+  </body>
 </html>
 ```
