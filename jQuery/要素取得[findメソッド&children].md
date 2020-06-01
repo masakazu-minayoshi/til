@@ -4,6 +4,7 @@
 # childrenメソッド  
 * 指定したセレクタが持つ子要素（一階層だけ下）の中から指定したセレクタに合致した要素を取得したい時に用いる。  
 # コード例とイメージ  
+[![Image from Gyazo](https://i.gyazo.com/7821edd62db825518c55859e3f6a4031.gif)](https://gyazo.com/7821edd62db825518c55859e3f6a4031)
 ```
 [sample.html]
 <!DOCTYPE html>
@@ -68,7 +69,7 @@ $(function(){
 //「#children-method」がクリックされた時に起こるイベントを設定する。
   $('#children-method').click(function(){
 //「#wrapper」の一階層下にある「a」要素を取得し、fadeOutメソッドで隠す処理を定義する。
-    $('#wrapper').children('a').fadeOut;
+    $('#wrapper').children('a').fadeOut();
   });
 });
 ```
