@@ -24,6 +24,7 @@ search(11, input)
 ```
 
 
-> 参考
+> 参考  
 [【Ruby】繰り返し処理にインデックスをつける(each_with_index, with_index)](https://qiita.com/tomokichi_ruby/items/46094a5fecbd46906f93)  
 [Ruby 2.7.0 リファレンスマニュアル ](https://docs.ruby-lang.org/ja/latest/method/Enumerable/i/each_with_index.html)  
+[each_with_indexをうまく使う【rubyアルゴリズム】](https://www.y-hakopro.com/entry/2019/08/29/230524)
