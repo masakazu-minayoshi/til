@@ -20,6 +20,7 @@ output(num)
 ・Studentクラスにはintroduceメソッドが定義されている。実行すると  
 　「私の名前は◯◯です。◯歳です」と表示がされる。  
 ・Studentクラスのインスタンスを作成し、introduceメソッドを実行する。  
+
 ```
 class Person
   def initialize(name, age)
@@ -37,3 +38,6 @@ end
 yamada = Sutdent.new("山田", 20)
 yamada.introduce
 ```
+
+> 参考
+[クラスのメソッドをオーバーライドするには？](https://www.buildinsider.net/language/rubytips/0014)
