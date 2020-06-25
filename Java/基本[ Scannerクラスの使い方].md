@@ -57,3 +57,6 @@ public class Sample {
 
 > 参考  
 [Scannerクラスの使い方！Javaで標準入力を取得する方法【初心者向け】](https://techacademy.jp/magazine/19080)  
+[Javaプログラミング追加問題61-90記事一覧](http://javakunren.49ch.net/category13/)  
+
+
