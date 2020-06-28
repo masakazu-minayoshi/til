@@ -19,3 +19,5 @@ def array123(nums)
   end
 end
 ```
+> 参考  
+[るりまサーチ:Ruby API](https://docs.ruby-lang.org/ja/search/)  
