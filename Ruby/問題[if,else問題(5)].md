@@ -18,3 +18,5 @@ def in1to10(num, outside_mode)
   end
 end
 ```
+> 参考  
+[るりまサーチ:Ruby API](https://docs.ruby-lang.org/ja/search/)  
