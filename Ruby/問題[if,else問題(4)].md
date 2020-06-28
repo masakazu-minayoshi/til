@@ -25,4 +25,5 @@ near_ten(num)
 
 > 参考  
 [<DAY133>学習忘備録　ドリルより](https://www.yujiro.site/entry/2019/07/04/215607)  
-[[Ruby]dorill67](https://cloraordinary.com/rubydorill67)  
+[[Ruby]dorill67](https://cloraordinary.com/rubydorill67)    
+[るりまサーチ:Ruby API](https://docs.ruby-lang.org/ja/search/)  
