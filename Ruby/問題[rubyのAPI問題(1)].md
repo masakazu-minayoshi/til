@@ -1,7 +1,7 @@
 # 問題  
 任意の文字に対してn番目の文字を消し、その消した文字を出力するメソッドを作りなさい。  
 ※ヒント：APIを利用して問題を解きましょう。  
-[参考URL]<br>https://docs.ruby-lang.org/ja/search/  
+[参考URL][るりまサーチ:Ruby API](https://docs.ruby-lang.org/ja/search/)  
 
 [呼び出し方]<br>missing_char(string, num)  
 
