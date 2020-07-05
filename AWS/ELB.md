@@ -51,6 +51,38 @@
 ②Webサーバーをステートレスに構築する。  
 
 
+## ELB設定例  
+[事前準備]  
+* ELBの配下に接続するEC2インスタンスの事前準備とnginxも動いている状態にしておく。  
+### ELBの作成を開始する  
+* サービス→EC2をクリック
+[![Image from Gyazo](https://i.gyazo.com/4014ab9e245699d1d88b7de6e41ccda8.png)](https://gyazo.com/4014ab9e245699d1d88b7de6e41ccda8)
+### 「ロードバランサ」をクリック  
+* 「ロードバランサの作成」をクリック
+[![Image from Gyazo](https://i.gyazo.com/8384625477cef8a4d6e881a1505ded1c.png)](https://gyazo.com/8384625477cef8a4d6e881a1505ded1c)
+### Application Load Balancerのところにある作成をクリック  
+[![Image from Gyazo](https://i.gyazo.com/06fcbc030f08b2adb8629cff83a47348.png)](https://gyazo.com/06fcbc030f08b2adb8629cff83a47348)
+### 必要な設定値を入力して、セキュリティ設定の構成をクリック  
+* ALBの名前の入力やHTTP/HTTPSの別、対象VPCとアベイラビリティゾーンのチェックなどを行う。  
+[![Image from Gyazo](https://i.gyazo.com/a98655341d06d6be44030f94dc8ce6b5.png)](https://gyazo.com/a98655341d06d6be44030f94dc8ce6b5)
+「セキュリティグループの設定」をクリックしてから、<br>HTTP/HTTPSの別に合わせてセキュリティグループを設定する。  
+（下記画像はHTTPのみ用のALBの場合）設定後ルーティングの設定をクリックする。
+[![Image from Gyazo](https://i.gyazo.com/dd47c7f75e6ec71ff783d98a43511311.png)](https://gyazo.com/dd47c7f75e6ec71ff783d98a43511311)
+### ターゲットグループの設定値を入力してから「ターゲットの登録」をクリック  
+* ターゲットグループの名前を入力したり、配下のサーバの生存確認＝ヘルスチェックで利用するパス等を入力  
+[![Image from Gyazo](https://i.gyazo.com/4234eb05d685e98110e394eedc028bb7.png)](https://gyazo.com/4234eb05d685e98110e394eedc028bb7)
+### 配下に組み入れるEC2インスタンス選択してから「登録済みに追加」をクリック  
+* 追加できたら「次の手順：確認」をクリック
+[![Image from Gyazo](https://i.gyazo.com/451f55ef9fd9b91ab5d53286e36ead36.png)](https://gyazo.com/451f55ef9fd9b91ab5d53286e36ead36)
+### 設定内容を確認して問題なければ「作成」をクリック
+[![Image from Gyazo](https://i.gyazo.com/014a2f34b5c70e0e923d8c56ef6c035e.png)](https://gyazo.com/014a2f34b5c70e0e923d8c56ef6c035e)
+### 作成が完了したら「閉じる」をクリックする
+[![Image from Gyazo](https://i.gyazo.com/26e67173d14d31c83075a67116676f1c.png)](https://gyazo.com/26e67173d14d31c83075a67116676f1c)
+### サービス→EC2→ターゲットグループ→ターゲットを開き、状態がhealthyになってことを確認
+[![Image from Gyazo](https://i.gyazo.com/a9576967d2fd587e995f8c495e4a0ab4.png)](https://gyazo.com/a9576967d2fd587e995f8c495e4a0ab4)
+### 説明→DNS名でアクセスできるかを確認する
+[![Image from Gyazo](https://i.gyazo.com/953145cc3f395c6e7ebb140641797d62.png)](https://gyazo.com/953145cc3f395c6e7ebb140641797d62)
+
 
 
 
